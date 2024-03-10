@@ -1,0 +1,16 @@
+com.example.hw_flutter.app-jetified-annotation-experimental-1.1.0-0 /Users/andrey/.gradle/caches/transforms-3/02315cc9f75263553d2042718fc375ee/transformed/jetified-annotation-experimental-1.1.0/res
+com.example.hw_flutter.app-jetified-window-1.0.0-beta04-1 /Users/andrey/.gradle/caches/transforms-3/076eb9235982ee06112d76594ea8585f/transformed/jetified-window-1.0.0-beta04/res
+com.example.hw_flutter.app-webkit-1.7.0-2 /Users/andrey/.gradle/caches/transforms-3/42e5ec024b36c9bb75771580f651e3dd/transformed/webkit-1.7.0/res
+com.example.hw_flutter.app-jetified-window-java-1.0.0-beta04-3 /Users/andrey/.gradle/caches/transforms-3/99750bb863b6fe460a7b5da8686e778d/transformed/jetified-window-java-1.0.0-beta04/res
+com.example.hw_flutter.app-core-1.6.0-4 /Users/andrey/.gradle/caches/transforms-3/d08c73bfb05384f2e52578171dbd141e/transformed/core-1.6.0/res
+com.example.hw_flutter.app-main-5 /Users/andrey/StudioProjects/hw_flutter/android/app/src/main/res
+com.example.hw_flutter.app-release-6 /Users/andrey/StudioProjects/hw_flutter/android/app/src/release/res
+com.example.hw_flutter.app-pngs-7 /Users/andrey/StudioProjects/hw_flutter/build/app/generated/res/pngs/release
+com.example.hw_flutter.app-resValues-8 /Users/andrey/StudioProjects/hw_flutter/build/app/generated/res/resValues/release
+com.example.hw_flutter.app-rs-9 /Users/andrey/StudioProjects/hw_flutter/build/app/generated/res/rs/release
+com.example.hw_flutter.app-mergeReleaseResources-10 /Users/andrey/StudioProjects/hw_flutter/build/app/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.example.hw_flutter.app-mergeReleaseResources-11 /Users/andrey/StudioProjects/hw_flutter/build/app/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.example.hw_flutter.app-merged_res-12 /Users/andrey/StudioProjects/hw_flutter/build/app/intermediates/merged_res/release
+com.example.hw_flutter.app-packaged_res-13 /Users/andrey/StudioProjects/hw_flutter/build/path_provider_android/intermediates/packaged_res/release
+com.example.hw_flutter.app-packaged_res-14 /Users/andrey/StudioProjects/hw_flutter/build/sqflite/intermediates/packaged_res/release
+com.example.hw_flutter.app-packaged_res-15 /Users/andrey/StudioProjects/hw_flutter/build/webview_flutter_android/intermediates/packaged_res/release
