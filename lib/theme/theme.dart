@@ -15,7 +15,7 @@ final lightTheme = ThemeData(
   primaryColor: primaryColor,
   useMaterial3: true,
   textTheme: textTheme,
-  scaffoldBackgroundColor: Colors.grey.withOpacity(0.1),
+  scaffoldBackgroundColor: Colors.white,
   colorScheme: ColorScheme.fromSeed(
       seedColor: primaryColor, brightness: Brightness.light),
 );
