@@ -23,7 +23,7 @@
 
 The News Feed project in Flutter is a dynamic and visually appealing application that displays the latest news articles from [newsapi](https://newsapi.org/). Users can scroll through a continuous feed of news stories and view each article in more detail. The app features a clean and intuitive user interface, with smooth animations and transitions, making it easy and enjoyable to stay informed on current events.
 
-![News feed](/lib/assets/myapp.png?raw=true "News feed")
+![News feed](/lib/assets/feed.png?raw=true "News feed")
 
 ## Built With
 
@@ -65,6 +65,12 @@ Just scroll feed and enjoy :) You can also change theme (light/dark) in settings
 By clicking on an article you will see it in more detail.
 
 ![Article details](/lib/assets/articledetail.png?raw=true "Article details")
+
+Recently I added "Saved" tab, where you can see your favorite articles :)
+
+![Favorite articles](/lib/assets/saved.png?raw=true "Favorite articles")
+
+If you unlike any article it will be removed from "Saved".
 
 ## Roadmap
 

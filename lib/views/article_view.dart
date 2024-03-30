@@ -17,9 +17,14 @@ class ArticleView extends StatelessWidget {
       required this.url,
       required this.content});
 
-  void _handleURLButtonPress(BuildContext context, String url, String title, WebViewController controller) {
-    Navigator.push(context,
-        MaterialPageRoute(builder: (context) => WebViewWidget(controller: controller,)));
+  void _handleURLButtonPress(BuildContext context, String url, String title,
+      WebViewController controller) {
+    Navigator.push(
+        context,
+        MaterialPageRoute(
+            builder: (context) => WebViewWidget(
+                  controller: controller,
+                )));
   }
 
   @override
@@ -76,7 +81,8 @@ class ArticleView extends StatelessWidget {
                       style: Theme.of(context).textTheme.titleMedium,
                     ),
                     onPressed: () {
-                      _handleURLButtonPress(context, url, "Original Source", controller);
+                      _handleURLButtonPress(
+                          context, url, "Original Source", controller);
                     },
                   ),
                 ),

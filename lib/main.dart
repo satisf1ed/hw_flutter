@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:hw_flutter/theme/theme_provider.dart';
+import 'package:hw_flutter/providers/saved_provider.dart';
+import 'package:hw_flutter/providers/theme_provider.dart';
 import 'package:hw_flutter/views/home.dart';
 import 'package:provider/provider.dart';
 
 void main() {
-  runApp(ChangeNotifierProvider(
-      create: (context) => ThemeProvider(),
-      child: const MyApp()));
+  runApp(MultiProvider(providers: [
+    ChangeNotifierProvider(create: (context) => ThemeProvider()),
+    ChangeNotifierProvider(create: (context) => SavedArticlesProvider()),
+  ], child: const MyApp()));
 }
 
 class MyApp extends StatelessWidget {

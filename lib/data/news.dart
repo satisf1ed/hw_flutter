@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import '../models/article.dart';
 import 'package:http/http.dart' as http;
 
@@ -13,7 +12,7 @@ class News {
       path: '/v2/everything',
       queryParameters: {
         'q': 'tesla',
-        'from': '2024-03-05',
+        'from': '2024-03-25',
         'sortBy': 'publishedAt',
         'apiKey': '5b6c1826880b498aae85966fbab89f7d'
       },
@@ -35,7 +34,6 @@ class News {
             element["title"] != null &&
             element["url"] != null &&
             element['content'] != null) {
-
           Article article = Article(
             element['author'],
             element['title'],

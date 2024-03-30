@@ -11,7 +11,8 @@ class ErrorImage extends StatelessWidget {
         border: Border.all(),
         borderRadius: BorderRadius.circular(8),
       ),
-      child: const Padding(padding: EdgeInsets.all(5), child: Text('Failed to load picture')),
+      child: const Padding(
+          padding: EdgeInsets.all(5), child: Text('Failed to load picture')),
     );
   }
 }
