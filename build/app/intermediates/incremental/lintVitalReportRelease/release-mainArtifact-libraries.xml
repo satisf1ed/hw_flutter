@@ -4,6 +4,19 @@
       jars="/Users/andrey/StudioProjects/hw_flutter/build/app/intermediates/flutter/release/libs.jar"
       resolved="__local_aars__:/Users/andrey/StudioProjects/hw_flutter/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
   <library
+      name="/Users/andrey/StudioProjects/hw_flutter/android@@:shared_preferences_android::release"
+      jars="/Users/andrey/StudioProjects/hw_flutter/build/shared_preferences_android/.transforms/d86e73cc93318cd8aeb1836d8cfe8762/transformed/out/jars/classes.jar:/Users/andrey/StudioProjects/hw_flutter/build/shared_preferences_android/.transforms/d86e73cc93318cd8aeb1836d8cfe8762/transformed/out/jars/libs/R.jar"
+      resolved="io.flutter.plugins.sharedpreferences:shared_preferences_android:unspecified"
+      folder="/Users/andrey/StudioProjects/hw_flutter/build/shared_preferences_android/.transforms/d86e73cc93318cd8aeb1836d8cfe8762/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="/Users/andrey/StudioProjects/hw_flutter/android@@:sqflite::release"
       jars="/Users/andrey/StudioProjects/hw_flutter/build/sqflite/.transforms/a81fdd4b8cee1938a4ee84748365351f/transformed/out/jars/classes.jar:/Users/andrey/StudioProjects/hw_flutter/build/sqflite/.transforms/a81fdd4b8cee1938a4ee84748365351f/transformed/out/jars/libs/R.jar"
       resolved="com.tekartik.sqflite:sqflite:unspecified"

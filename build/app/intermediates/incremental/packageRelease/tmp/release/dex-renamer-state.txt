@@ -1,4 +1,4 @@
-#Sun Mar 10 14:06:23 MSK 2024
+#Sat Mar 30 21:43:49 MSK 2024
 base.0=/Users/andrey/StudioProjects/hw_flutter/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
