@@ -4,13 +4,14 @@ import 'package:hw_flutter/models/article.dart';
 import 'package:hw_flutter/providers/saved_provider.dart';
 
 void main() {
-
   /// TEST 1
   test('Testing SavedProvider', () async {
     // ARRANGE
     final articles = [
-      Article('author1', 'title1', 'description1', 'url1', 'imageUrl1', 'content1'),
-      Article('author2', 'title2', 'description2', 'url2', 'imageUrl2', 'content2'),
+      Article(
+          'author1', 'title1', 'description1', 'url1', 'imageUrl1', 'content1'),
+      Article(
+          'author2', 'title2', 'description2', 'url2', 'imageUrl2', 'content2'),
     ];
     final provider = SavedArticlesProvider();
     expect(provider.getData.isEmpty, true);
@@ -42,8 +43,11 @@ void main() {
     // ASSERT
     expect(newsService.news.isNotEmpty, true);
     for (var element in newsService.news) {
-      expect(element.url != '' && element.description != '' && element.content != '', true);
+      expect(
+          element.url != '' &&
+              element.description != '' &&
+              element.content != '',
+          true);
     }
-
   });
 }
